@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  li {
+    text-decoration: none !important;
+  }
+  .secondary-links {
+    color: grey !important;
+  }
+  .conf-Bs-As {
+    font-size: 1.4rem !important;
+  }
+  
+  a {
+    font-size: 1.05rem !important;
+  }
+
+  .carousel-caption {
+    margin-bottom: 50px;
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center;
+    height: 50vh;
+    text-align: end;
+  }
+
+  .landscape {
+    width: 100%;
+    padding: 0 !important;
+    background-color: #353a40;
+  }
+  
+  .landscape-title-info {
+    margin: 15px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .landscape-paragraph-info {
+    margin: 15px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
