@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  li {
+    text-decoration: none !important;
+  }
+  .carousel-size {
+    height: calc(100vh - 79px) !important;
+  }
+  
+  .carousel-size img {
+    object-fit: cover;
+    filter: brightness(58%);
+    position: absolute;
+    overflow: hidden;
+    top: -130px;
+    width: 100vw;
+    height: calc(100vh - -51px);
+  }
+  
+  .carousel-caption {
+    margin-bottom: 50px;
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center;
+    height: 50vh;
+    text-align: end;
+  }
+  
+  .Hero-info-col {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .Hero-info-col button {
+    margin: 10px 5px;
+  }
+  
+  .hero-paragraph {
+    justify-content: end;
+    text-align: end;
+    width: 50%;
+  }
+  
+  .btn-success {
+    background-color: #29a744 !important;
+  }
+  
+  .btn-success:hover {
+    background-color: rgb(14, 138, 14) !important;
+  }
+  
+  .ticket-value {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: -20px;
+    margin-bottom: 5px;
+  }
+  
+  .card1 {
+    width: 270px !important;
+    min-width: 200px !important;
+    max-width: 270px !important;
+    border: 2px solid blue !important;
+    height: 240px !important;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.213);
+    border-radius: 1px !important;
+    background-color: white;
+    transition: 1s ease;
+    cursor: pointer;
+  }
+  
+  .card1:hover {
+    background-color: rgb(131, 131, 255);
+  }
+  
+  .card2 {
+    width: 270px !important;
+    min-width: 200px !important;
+    max-width: 270px !important;
+    border: 2px solid rgb(82, 187, 173) !important;
+    height: 240px !important;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.213);
+    border-radius: 1px !important;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .card2:hover {
+    background-color: rgb(127, 219, 211);
+  }
+  
+  .card3 {
+    width: 270px !important;
+    min-width: 200px !important;
+    max-width: 270px !important;
+    border: 2px solid rgb(248, 202, 84) !important;
+    height: 240px !important;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.213);
+    border-radius: 1px !important;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .card3:hover {
+    background-color: rgba(233, 207, 103, 0.979);
+  }
+  
+
+  
+  .card-title {
+    font-size: 25px;
+  }
+  
+  .paragraph1-card {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .paragraph2-card {
+    font-size: 17px;
+  }
+  
+  .card-percent {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .navlinks:hover {
+    color: white !important;
+  }
+  
+  .yellow-button {
+    padding: 0px 4px !important;
+    font-weight: 600 !important;
+  }
+  
+  .blue-button {
+    padding: 0px 4px !important;
+    font-weight: 600 !important;
+  }
+  
+  .badge-padding {
+    padding-top: 2px !important;
+  }
+  
+  .btn-info {
+    background-color: #15a1ba !important;
+    color: white !important;
+  }
+  
+  
+  
+  .flip-first-card {
+    position: relative;
+    transition: all 0.7s ease;
+    transform: perspective(600px);
+    transform-origin: 100% 50%;
+    transform-style: preserve-3d;
+  }
+  .flip-first-card:hover {
+    transform: perspective(1600px) rotateY(-10deg) translateX(-5%) rotateX(10deg);
+    scale: 110%;
+    box-shadow: 25px 20px 25px 2px rgba(64, 60, 60, 0.315);
+  }
+  
+  .flip-first-card .flip-1,
+  .flip-first-card .flip-2 {
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  .flip-first-card .flip-2 {
+    transform: rotateY(-180deg);
+  }
+  
+  
+  .flip-second-card {
+    position: relative;
+    transition: all 0.7s ease;
+    transform: perspective(600px);
+    transform-origin: 100% 50%;
+    transform-style: preserve-3d;
+  }
+  .flip-second-card:hover {
+    transform: perspective(1600px) rotateY(0deg) translateX(0%) rotateX(10deg);
+    scale: 110%;
+    box-shadow: 2px 25px 25px 2px rgba(64, 60, 60, 0.315);
+  }
+  
+  .flip-second-card .flip-1,
+  .flip-second-card .flip-2 {
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  .flip-second-card .flip-2 {
+    transform: rotateY(-180deg);
+  }
+  
+  
+  
+  .flip-third-card {
+    position: relative;
+    transition: all 0.7s ease;
+    transform: perspective(600px);
+    transform-origin: 100% 50%;
+    transform-style: preserve-3d;
+  }
+  .flip-third-card:hover {
+    transform: perspective(1600px) rotateY(10deg) translateX(5%) rotateX(10deg);
+    scale: 110%;
+    box-shadow: -15px 20px 25px 2px rgba(64, 60, 60, 0.315);
+  }
+  
+  .flip-third-card .flip-1,
+  .flip-third-card .flip-2 {
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  .flip-third-card .flip-2 {
+    transform: rotateY(-180deg);
+  }
+  
+  
+  
+  .flip {
+    position: relative;
+    transition: all 0.7s ease;
+    transform: perspective(600px);
+    transform-origin: 100% 50%;
+    transform-style: preserve-3d;
+  }
+  .flip:hover {
+    transform: perspective(2600px) rotateY(-20deg) rotateX(3deg) translateX(3%);
+    scale: 115%;
+    box-shadow: 10px 5px 15px 5px rgba(0, 0, 0, 0.33);
+  }
+  
+  .flip .flip-1,
+  .flip .flip-2 {
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  .flip .flip-2 {
+    transform: rotateY(-180deg);
+  }
+  
+  .landscape-info {
+    height: 400px;
+  }
+  
+  .landscape-info img {
+    object-fit: cover;
+    height: 100%;
+  }
+  
+  
+  
+  .flip-inputs {
+    position: relative;
+    transition: all 0.6s ease !important;
+    transform: perspective(600px);
+    transform-origin: 100% 50%;
+    transform-style: preserve-3d;
+  }
+  .flip-inputs:hover {
+    transform: perspective(1000px) rotateY(-10deg) rotateX(3deg) translateX(3%);
+    scale: 115%;
+    box-shadow: 7px 5px 10px 1px rgba(64, 60, 60, 0.315);
+  }
+  
+  .flip-inputs .flip-1,
+  .flip-inputs .flip-2 {
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  .flip-inputs .flip-2 {
+    transform: rotateY(-180deg);
+  }
+  
+  .landscape-info {
+    height: 400px;
+  } 
+  
+  ul {
+    border-radius: 30px;
+    padding: 0px;
+  }
+  
+  ul:hover {
+    background-color: rgba(0, 0, 0, 0.19);
+  }
+  
+  .landscape {
+    width: 100%;
+    padding: 0 !important;
+    background-color: #353a40;
+  }
+  
+  .landscape-title-info {
+    margin: 15px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .landscape-paragraph-info {
+    margin: 15px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+  
+  .register-container {
+    width: 62.3vw !important;
+  }
+  
+  .amount-div {
+    height: 50px;
+    background-color: rgba(204, 229, 255, 255);
+    border-radius: 5px;
+    border: 2px solid rgba(204, 219, 275, 255);
+    width: 97% !important;
+    margin: auto;
+  }
+  
+  .total {
+    margin: 8px 0 10px 7px;
+    color: #08468a;
+    width: 110px;
+  }
+  
+  #total {
+    color: #08468a;
+  }
+  
+  .amount-div input {
+    width: 100% !important;
+    min-width: 40px !important;
+    background-color: transparent !important;
+  }
+  
+  #total {
+    background-color: rgba(204, 229, 255, 255);
+    border: none;
+    outline: none;
+    margin-left: 1px;
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+  
+  #total::placeholder {
+    color: rgb(0, 0, 255);
+  }
+  
+  .error {
+    background-color: rgba(255, 52, 52, 0.975);
+  }
+  
+  u {
+    color: black;
+    text-decoration: underline dotted black !important;
+  }
+  
+  .buttonsDiv {
+    display: flex;
+  }
+  
+  .green-button {
+    background-color: #96c93e !important;
+    border: 1px solid #96c93e !important;
+    height: 50px;
+    margin: 20px 0;
+  }
+  
+  .leftButton {
+    margin-right: 10px;
+  }
+  
+  footer {
+    height: 80px;
+    background-image: linear-gradient(to right, #1c3643, #1d5271);
+  }
+  
+  .footer-links {
+    font-size: 0.9rem !important;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    font-weight: 400 !important;
+    justify-content: center;
+  }
+  
+  .footer-links:hover {
+    color: rgb(175, 175, 175) !important;
+  }
+  
+  .navbar-toggler,
+  .navbar-toggler-icon,
+  .navbar-collapse {
+    border: 0.5x solid rgb(255, 255, 255) !important;
+    color: rgb(255, 255, 255) !important;
+  }
